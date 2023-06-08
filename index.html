@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="left">
+        <img class="leaves" src="images/Leaves.jpg" alt="">
+        <div class="odin">
+            <img class="odin-img" src="images/odin-lined.png" alt="">
+            <h1 class="odin-text">Odin</h1>
+        </div>
+    </div>
+    <div class="right">
+        <div class="container-1">
+            <h2>This is not a real online service! You know you need something like this in your your life to help you realize your deepest dreams.</h2>
+            <h2>Sign up <em>now</em> to get started.</h2>
+            <br>
+            <h2>You <em>know</em> you want to</h2>
+        </div>
+        <div class="form-container">
+            
+            <form id="data" action="">
+                <h2>Let's Do This!</h2>
+                <div class="inputfields">
+                    <div class="info-1">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="First Name" id="firstname" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="info-2">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="Last Name" id="lastname" required>
+                        <label for="number">Phone Number</label>
+                        <input type="tel" name="number" id="number" required>
+                        <label for="confirmpassword">Confirm Password</label>
+                        <input type="password" name="confirmpassword" id="confirmpassword" required>
+                    </div>
+                </div>
+               
+              
+            </form>
+        </div>
+        <div class="buttondiv">
+            <button type="submit" form="data">Submit</button>
+            <h3 class="end">Already have an account? <a href="">Log in</a></h3>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

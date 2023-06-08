@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 99vh;
+    width: 100vw;
+
+}
+
+.leaves {
+    height: 99vh;
+}
+
+.left {
+    position: relative;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 200px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.odin-img {
+    height: 100px;
+}
+
+.odin-text {
+    font-size: 5rem;
+    margin: 10px;
+    color: white;
+    font-family: Norse-Bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+    width: 100%;
+    background-color: #F9F5F6;
+}
+
+
+.container-1 {
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 100%;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+
+.form-container {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputfields {
+    display:flex;
+    padding-top: 10px;
+    gap: 100px;
+}
+
+.info-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.info-2 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.form-container {
+    background-color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+label {
+    font-size: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    border: #E5E7EB 2px solid;
+}
+
+input:focus {
+    outline: none !important;
+    border: 3px solid blue;
+    box-shadow: 2px 2px;
+    
+}
+
+input:invalid {
+    outline: none !important;
+    border: 3px solid red;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 60px;
+}
+
+.buttondiv {
+    height: 100%;
+}
+
+
+button {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #596D48;
+    color: white;
+    border: white 2px solid;
+}
+
+button:hover {
+    background-color: #606C5D;
+}
+
+button:active {
+    background-color: #B31312;
+}
+
+
+h3 {
+    margin-left: 50px;
+}
+
+a {
+    color: red;
+}
